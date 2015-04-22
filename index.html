@@ -11,8 +11,37 @@
 		width: 400px; height:300px;
 		margin:auto;
 		}*/
+		*{
+		margin:0px; padding: 0px;
+		}
 		
-		img{
+		.container{
+			width:890px;
+			margin:10px 10px 10px 10px; /*시계방향 top right bottom left */
+			background:#666666;
+			background-color: #666666;
+			text-align:center;
+		
+		}
+		
+		.myphoto{
+		background-color : #ff66ff;
+		border: 2px solid #333333;
+		}
+		
+		#myphoto, #myinfo{
+		background-color : #ff66ff;
+		border: 2px solid #333333;
+		}
+		
+		.myinfo{
+		background-color : #ff66ff;
+		border: 2px solid #333333;
+		}
+		
+		
+		
+		#myphoto >img{
 		width:640px;
 		border-top:4px solid #666666; /*실선*/
 		border-right:4px sdashed #666666; 
@@ -24,8 +53,14 @@
    
 </head>
 <body>
-<div class="greeting">Hello world!</div>
-<img src="./image/me.jsp" alt="무시무시한 전투코알라" title="무시무시한 전투코알라"
-style="width:640px;">
-</body>
-</html>
+<div class="container">
+	<div id ="myphoto">
+		<img src="./image/me.jsp" alt="무시무시한 전투코알라" title="무시무시한 전투코알라">
+	 </div>
+	 <div id="myinfo">
+	 </div>
+	
+	
+		</div>
+	</body>
+	</html>
